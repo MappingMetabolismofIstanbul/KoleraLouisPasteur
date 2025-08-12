@@ -114,26 +114,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
       
-        },
-         {
-            id: 'fifth-identifier',
-            alignment: 'centered',
-            hidden: true,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [28.979, 41.032],
-                zoom: 18,
-                pitch: 0,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-      
         }
        
     ]
