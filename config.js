@@ -35,7 +35,7 @@ var config = {
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
@@ -94,27 +94,8 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-        },
-         {
-            id: 'fourth-identifier',
-            alignment: 'centered',
-            hidden: true,
-            title: '',
-            image: '',
-            description: '',
-            location: {
-                center: [28.979, 41.032],
-                zoom: 16,
-                pitch: 0,
-                bearing: 0.00
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-      
         }
+       
        
     ]
 };
